@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ToDoItem = (props) => {
+const TodoItem = (props) => {
   return (
     <li className="list-group-item">
         <div className="form-check">
@@ -11,4 +11,4 @@ const ToDoItem = (props) => {
   )
 }
 
-export default ToDoItem
+export default TodoItem
